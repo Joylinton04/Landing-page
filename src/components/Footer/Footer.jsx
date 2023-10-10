@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
         </div>
         <span className="span-2"></span>
-        <div className="footer-content-2">
+        <div className="footer-content-3">
             <div>
                 Made by Cruip. All rights reserved.
             </div>
