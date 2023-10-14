@@ -151,6 +151,7 @@ nav .nav .sign span:last-child {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .span {
@@ -219,6 +220,7 @@ nav .nav .sign span:last-child {
 
 .productPlan {
   margin-top: 50px;
+  text-align: center;
 }
 
 .productPlan .goal {
@@ -274,7 +276,10 @@ nav .nav .sign span:last-child {
 }
 
 .plan-section-1 .plan-info {
-  max-width: 650px;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .plan-section-1 .plan-info h1 {
@@ -290,11 +295,15 @@ nav .nav .sign span:last-child {
   width: 80%;
   font-weight: 200;
   font-size: 21px;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .plan-section-1:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+.comments {
+  text-align: center;
 }
 
 .comment-card {
@@ -464,6 +473,7 @@ footer .footer-content-3 ul {
   list-style: none;
   column-gap: 2rem;
   color: #cccc;
+  padding: 1rem;
 }
 
 
